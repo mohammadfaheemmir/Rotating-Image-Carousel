@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1.5em;
+    padding: .5em 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0 0 10px palevioletred;
+    border-radius: 2rem;
+}
+
+#move{
+    display: flex;
+    transform: translateX(0px);
+    transition: transform 0.3s ease-in-out;
+}
+
+img{
+    width: 80%;
+    height: 30vh;
+    object-fit: cover;
+}
